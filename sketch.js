@@ -87,7 +87,7 @@ function setup() {
 
 function draw()
 
-   background("yellow")
+   
   textSize(35);
   fill(100,168,21);
   text("Score:"+ scoregame,width-300,50)
