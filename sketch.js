@@ -88,9 +88,10 @@ function setup() {
 function draw() {
   if(backgroundImage) 
   background(backgroundImage);
-
+ else
+   background("yellow")
   textSize(35);
-  //fill(100,168,21);
+  ill(100,168,21);
   text("Score:"+ scoregame,width-300,50)
 
 console.log(scoregame)
