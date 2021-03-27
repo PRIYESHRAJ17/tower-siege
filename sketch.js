@@ -205,7 +205,7 @@ function mouseDragged(){
 
   async function getTime() {
   
-    var getinfo= await   fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
+    var getinfo= await   fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata")
     var infotype = await getinfo.json();
     console.log(infotype)
       
