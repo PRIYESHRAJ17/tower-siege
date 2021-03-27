@@ -17,7 +17,7 @@ var polygon;
 
 var slingshot;
 
-var backgroundImage;
+
 
 var scoregame = 0;
 
