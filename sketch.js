@@ -22,7 +22,7 @@ var backgroundImage;
 var scoregame = 0;
 
 function preload() {
-  getTime()
+  
 }
 
 
@@ -85,10 +85,8 @@ function setup() {
   
 }
 
-function draw() {
-  if(backgroundImage) 
-  background(backgroundImage);
- else
+function draw()
+
    background("yellow")
   textSize(35);
   fill(100,168,21);
