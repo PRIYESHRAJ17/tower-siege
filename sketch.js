@@ -91,7 +91,7 @@ function draw() {
  else
    background("yellow")
   textSize(35);
-  ill(100,168,21);
+  fill(100,168,21);
   text("Score:"+ scoregame,width-300,50)
 
 console.log(scoregame)
